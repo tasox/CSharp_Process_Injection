@@ -25,3 +25,6 @@ This project contains a remote process injection tehnique using basic Windows AP
 ![image](https://user-images.githubusercontent.com/9944198/128017354-0cf154e0-3109-4db0-9169-521a7c70a7f6.png)
 
 ![image](https://user-images.githubusercontent.com/9944198/128017428-ebaa4208-a2df-42b6-b682-fb5d0e9f9867.png)
+
+## Resources
+- https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md 
