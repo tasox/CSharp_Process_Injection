@@ -1,6 +1,6 @@
 # CSharp Projects
 
-This project contains various process injection tehniques using low and higher level Windows API calls. It supports bother x86/x64 architectures as well as outputs the memory address of the remote process where the shellcode injected, payload address, injected processID and the ThreadId. These information can help the less experienced to practice and understand every technique using debugging tools (x64dbg, x32dbg, processhacker, process explorer etc).
+This project contains various process injection tehniques using low and higher level Windows API calls. It supports both x86/x64 architectures as well as outputs the memory address of the remote process where the shellcode injected, the payload address, the remote processID and the ThreadId. These information can help the less experienced to practice and understand every technique using tools like x64dbg, x32dbg, processhacker, process explorer etc.
 
 ### Process Injection (High Level Windows API)
 
