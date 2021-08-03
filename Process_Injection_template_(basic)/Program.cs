@@ -46,9 +46,7 @@ namespace Inject
             {
                 fixed (byte* p = &buf[0])
                 {
-                    byte* p2 = p;
-                    // https://stackoverflow.com/questions/2057469/how-can-i-display-a-pointer-address-in-c
-                    //string bufAddress = string.Format("0x{0:X}", new IntPtr(p2));
+                    byte* p2 = p;                    
                     
                     //Convert DEC->HEX
                     string bufString = string.Format("{0:X}", new IntPtr(p2)); //Pointer -> String (DEC) format.
