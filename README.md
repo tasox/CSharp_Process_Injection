@@ -12,6 +12,12 @@ This project contains a remote process injection tehnique using basic Windows AP
 - The solution platform must be the same as architecture of the process that you want to inject. 
     - For example, If the Powershell is x64 then the project must compiled under x64 platform.
 
+#### API Calls
+- OpenProcess
+- VirtualAllocEx 
+- WriteProcessMemory
+- CreateRemoteThread
+
 ![image](https://user-images.githubusercontent.com/9944198/128016947-184fe2a9-f8c2-4886-b985-d4e28b4c79bf.png)
 
 ![image](https://user-images.githubusercontent.com/9944198/128017226-8dabc072-3b40-4e89-a5e2-ce79e834296a.png)
