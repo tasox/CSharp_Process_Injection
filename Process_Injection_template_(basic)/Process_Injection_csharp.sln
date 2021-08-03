@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Process_Injection_csharp", "Process_Injection_csharp.csproj", "{0BAD4923-6D91-4C7F-96E2-E0AC197A14FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BAD4923-6D91-4C7F-96E2-E0AC197A14FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAD4923-6D91-4C7F-96E2-E0AC197A14FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAD4923-6D91-4C7F-96E2-E0AC197A14FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAD4923-6D91-4C7F-96E2-E0AC197A14FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F816959C-7A3D-48AA-9F49-40C585EC219C}
+	EndGlobalSection
+EndGlobal
