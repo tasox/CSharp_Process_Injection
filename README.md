@@ -10,7 +10,7 @@ This project contains various process injection techniques using low and higher 
 
 ### 01. Process Injection (High Level Windows API)
 
-This project contains a remote process injection technique using basic Windows API calls. It supports x86 and x64 architecture and this can defined during the compilation on the Visual Studio. Moreover, this project outputs various information about the remote process injection as well as sets 2 breakpoints, which facilitates the debugging process.
+This category contains a remote process injection technique using basic Windows API calls. It supports x86 and x64 architecture and this can defined during the compilation on the Visual Studio. Moreover, this project outputs various information about the remote process injection as well as sets 2 breakpoints, which facilitates the debugging process.
 
 #### API Calls
 - OpenProcess
@@ -25,6 +25,19 @@ This project contains a remote process injection technique using basic Windows A
 ![image](https://user-images.githubusercontent.com/9944198/128017354-0cf154e0-3109-4db0-9169-521a7c70a7f6.png)
 
 ![image](https://user-images.githubusercontent.com/9944198/128017428-ebaa4208-a2df-42b6-b682-fb5d0e9f9867.png)
+
+
+### 02. Process Injection (High Level Windows API), suspends the spawned process.
+
+This category demonstrates a shellcode injection (x86/x64) into the Windows Update agent (wuauclt.exe), however can be any process that its execution timeframe is too quick and you want to keep it open in order to analyze what is happening in the background. A small trick is needed for this, Threads of the process must suspended after the execution of a legitimate DLL file. There are only a few changes from the "01" example.
+
+#### API Calls
+- OpenProcess
+- VirtualAllocEx 
+- WriteProcessMemory
+- CreateRemoteThread
+
+
 
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md 
