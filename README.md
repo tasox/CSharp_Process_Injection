@@ -37,13 +37,12 @@ This category demonstrates a shellcode injection (x86/x64) into the Windows Upda
 - WriteProcessMemory
 - CreateRemoteThread
 
-![image](https://user-images.githubusercontent.com/9944198/128198194-d45462fe-bced-44f3-b882-7a0842feeca7.png)
+![image](https://user-images.githubusercontent.com/9944198/128206032-859920fb-1e74-4d80-8646-14cc25f30b6e.png)
 
-![image](https://user-images.githubusercontent.com/9944198/128198096-862f3d68-89b6-4c6f-b2da-12ac093dcb92.png)
+![image](https://user-images.githubusercontent.com/9944198/128205795-058008fe-cc9c-4398-a1ed-d148b3d5cb8b.png)
 
-![image](https://user-images.githubusercontent.com/9944198/128198673-07711535-df33-45d8-b973-c07c87097077.png)
+![image](https://user-images.githubusercontent.com/9944198/128205893-44853aee-d0eb-440e-8190-0aa3709b965c.png)
 
-![image](https://user-images.githubusercontent.com/9944198/128198375-5023c06b-5328-44db-9136-7b34f84783d0.png)
 
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md 
