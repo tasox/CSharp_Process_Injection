@@ -34,7 +34,7 @@ This category contains a remote process injection technique using basic Windows 
 
 ### 02. Process Injection (High Level Windows API), suspends the spawned process.
 
-This category demonstrates a shellcode injection (x86/x64) into the Windows Update agent (wuauclt.exe), however can be any process that its execution timeframe is too quick and you want to keep it open in order to analyze what is happening in the background. A small trick is needed for this, Threads of the process must suspended after the execution of a legitimate DLL file. There are only a few changes from the "01" example.
+This category demonstrates a shellcode injection (x86/x64) into the Windows Update agent (wuauclt.exe), however can be any process that its execution timeframe is too quick and you want to keep it open in order to analyze what is happening in the background. A small trick to achieve this is to suspend process threads. There are only a few changes from the "01" example.
 
 #### API Calls
 - OpenProcess
