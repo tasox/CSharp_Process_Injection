@@ -36,6 +36,9 @@ This category contains a remote process injection technique using basic Windows 
 
 This category demonstrates a shellcode injection (x86/x64) into the Windows Update agent (wuauclt.exe), however can be any process that its execution timeframe is too quick and you want to keep it open in order to analyze what is happening in the background. A small trick to achieve this is to suspend process threads. There are only a few changes from the "01" example.
 
+Don't underestimate the simplicity of this method. I encourage you to read this report:
+- https://thedfirreport.com/2021/06/20/from-word-to-lateral-movement-in-1-hour/
+
 #### API Calls
 - OpenProcess
 - VirtualAllocEx 
