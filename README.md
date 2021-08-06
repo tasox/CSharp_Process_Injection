@@ -74,4 +74,6 @@ This category demonstrates a shellcode injection (x86/x64) into a process of you
 
 
 ## Resources
-- https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md 
+- https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
+- https://www.ired.team/offensive-security/code-injection-process-injection
+- https://www.forrest-orr.net/blog
