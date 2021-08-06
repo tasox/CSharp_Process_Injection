@@ -103,7 +103,7 @@ namespace Inject
             Console.WriteLine("Local Process BaseAddress: 0x" + localBaseAddHex);
             Console.WriteLine("View size: " + sizeLocal);
             Console.WriteLine("Offset: " + offsetSectionLocal);
-            Console.WriteLine("2th breakpoint. Press Enter to continue ...");
+            Console.WriteLine("2nd breakpoint. Press Enter to continue ...");
             Console.ReadLine();
 
             // Map the new section for the REMOTE process.
@@ -122,7 +122,7 @@ namespace Inject
             Console.WriteLine("Remote Process BaseAddress: 0x"+ remoteBaseAddHex);
             Console.WriteLine("View size: " + sizeRemote);
             Console.WriteLine("Offset: "+ offsetSectionRemote);
-            Console.WriteLine("3th breakpoint. Press Enter to continue ...");
+            Console.WriteLine("3rd breakpoint. Press Enter to continue ...");
             Console.ReadLine();
 
             Marshal.Copy(buf, 0, localBaseAddress, buf.Length);
