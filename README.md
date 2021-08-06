@@ -51,7 +51,7 @@ Don't underestimate the simplicity of this method. I encourage you to read this 
 
 ![image](https://user-images.githubusercontent.com/9944198/128205893-44853aee-d0eb-440e-8190-0aa3709b965c.png)
 
-### 03. Process Injection (lOW Level Windows API), Map a view of a section.
+### 03. Process Injection (Low Level Windows API), Map a view of a section.
 
 This category demonstrates a shellcode injection (x86/x64) into a process of your choice (i.e. explorer.exe). In this scenario lower level of Windows API has been used in order to create a new section and map it to a remote process.
 
