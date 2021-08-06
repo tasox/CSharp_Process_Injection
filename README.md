@@ -61,5 +61,17 @@ This category demonstrates a shellcode injection (x86/x64) into a process of you
 - NtMapViewOfSection
 - NtCreateThreadEx (you can also uncomment 'CreateRemoteThread' and use it, instead of 'NtCreateThreadEx')
 
+![image](https://user-images.githubusercontent.com/9944198/128521939-1576b6cf-9714-4126-a290-2b7030dbb33e.png)
+
+![image](https://user-images.githubusercontent.com/9944198/128522102-183a5dbe-8b19-4751-a62e-66609bc26a4c.png)
+
+![image](https://user-images.githubusercontent.com/9944198/128522283-71e9b74f-737d-418e-9540-81d8cadfa552.png)
+
+![image](https://user-images.githubusercontent.com/9944198/128522463-45b2b073-b58d-4a0c-a527-6992c706e28c.png)
+
+![image](https://user-images.githubusercontent.com/9944198/128522549-bd2b8054-6017-4446-8297-84af5b2325da.png)
+
+
+
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md 
