@@ -85,6 +85,14 @@ This category demonstrates a shellcode injection (x86/x64) into a process of you
 - NtCreateThreadEx (you can also uncomment 'CreateRemoteThread' and use it, instead of 'NtCreateThreadEx')
 - NtProtectVirtualMemory
 
+Before calling the 'NtProtectVirtualMemory'.
+![image](https://user-images.githubusercontent.com/9944198/128596418-2503be6d-e342-4811-859a-8b85e3f4bc94.png)
+
+After the call of 'NtProtectVirtualMemory'.
+![image](https://user-images.githubusercontent.com/9944198/128596445-7f90ec1f-0eed-40c3-bd8d-90d74a5ada2d.png)
+
+
+
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
 - https://www.ired.team/offensive-security/code-injection-process-injection
