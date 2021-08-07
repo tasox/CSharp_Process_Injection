@@ -11,6 +11,8 @@ This project contains various process injection techniques using low and higher 
 #### Categories
 - [01. Process Injection (High Level Windows API)](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#01-process-injection-high-level-windows-api)
 - [02. Process Injection (High Level Windows API)  - Suspends spawned process](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#02-process-injection-high-level-windows-api-suspends-the-spawned-process)
+- [03. Process Injection (Low Level Windows API), Map a view of a section](https://github.com/tasox/CSharp_Process_Injection#03-process-injection-low-level-windows-api-map-a-view-of-a-section)
+- [04. Process Injection (Low Level Windows API), Modify permissions of a section]()
 
 
 ### 01. Process Injection (High Level Windows API)
@@ -72,6 +74,16 @@ This category demonstrates a shellcode injection (x86/x64) into a process of you
 ![image](https://user-images.githubusercontent.com/9944198/128522549-bd2b8054-6017-4446-8297-84af5b2325da.png)
 
 
+### 04. Process Injection (Low Level Windows API), Modify permissions of a section.
+ 
+This category demonstrates a shellcode injection (x86/x64) into a process of your choice (i.e. explorer.exe). In this scenario lower level of Windows API has been used in order to create a new section and map it to a remote process afterwards the Windows API call 'NtProtectVirtualMemory' has been called to modify section's permissions.
+
+#### API Calls
+- OpenProcess
+- NtCreateSection
+- NtMapViewOfSection
+- NtCreateThreadEx (you can also uncomment 'CreateRemoteThread' and use it, instead of 'NtCreateThreadEx')
+- NtProtectVirtualMemory
 
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
