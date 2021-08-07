@@ -8,6 +8,10 @@ This project contains various process injection techniques using low and higher 
 - The solution platform must be the same as architecture of the process that you want to inject. 
     - For example, If the Powershell is x64 then the project must compiled under x64 platform.
 
+To avoid errors during the compilation, you have to check the 'Allow Unsafe Code' box on the Visual Studio.
+![image](https://user-images.githubusercontent.com/9944198/128598233-55193980-93ca-476a-8651-ad6f7b5545ab.png)
+
+
 #### Categories
 - [01. Process Injection (High Level Windows API)](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#01-process-injection-high-level-windows-api)
 - [02. Process Injection (High Level Windows API)  - Suspends spawned process](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#02-process-injection-high-level-windows-api-suspends-the-spawned-process)
