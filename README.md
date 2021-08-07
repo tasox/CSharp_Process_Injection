@@ -12,7 +12,7 @@ This project contains various process injection techniques using low and higher 
 - [01. Process Injection (High Level Windows API)](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#01-process-injection-high-level-windows-api)
 - [02. Process Injection (High Level Windows API)  - Suspends spawned process](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#02-process-injection-high-level-windows-api-suspends-the-spawned-process)
 - [03. Process Injection (Low Level Windows API), Map a view of a section](https://github.com/tasox/CSharp_Process_Injection#03-process-injection-low-level-windows-api-map-a-view-of-a-section)
-- [04. Process Injection (Low Level Windows API), Modify permissions of a section]()
+- [04. Process Injection (Low Level Windows API), Modify permissions of a section](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#04-process-injection-low-level-windows-api-modify-permissions-of-a-section)
 
 
 ### 01. Process Injection (High Level Windows API)
