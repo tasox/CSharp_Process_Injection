@@ -18,6 +18,10 @@ namespace Inject
         private static readonly uint SEC_COMMIT = 0x8000000;
         private static readonly uint PAGE_READWRITE = 0x04;
         private static readonly uint PAGE_READEXECUTE = 0x20;
+        private static readonly uint PAGE_NOACCESS = 0x01;
+        private static readonly uint MEM_RELEASE = 0x00008000;
+        private static readonly uint MEM_DECOMMIT = 0x00004000;
+        private static readonly uint DELETE = 0x00010000;
 
         [DllImport("ntdll.dll", SetLastError = true, ExactSpelling = true)]
         static extern UInt32 NtCreateSection(ref IntPtr SectionHandle, UInt32 DesiredAccess, IntPtr ObjectAttributes, ref UInt32 MaximumSize, UInt32 SectionPageProtection, UInt32 AllocationAttributes, IntPtr FileHandle);
