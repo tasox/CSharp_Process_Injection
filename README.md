@@ -2,6 +2,10 @@
 
 This project contains various process injection techniques using low and higher level Windows API calls. It supports both x86/x64 architectures as well as outputs the memory address of the remote process where the shellcode injected, the payload address, the remote processID and the ThreadId. These information can help the less experienced to practice and understand every technique using tools like x64dbg, x32dbg, processhacker, process explorer etc.
 
+#### Process Access
+- [Process Access rights](https://gist.github.com/Rhomboid/0cf96d7c82991af44fda)
+
+
 #### Steps
 - Open powershell (x86/x64) or any other process. See line 27.
 - Add your shellcode to the project. 
