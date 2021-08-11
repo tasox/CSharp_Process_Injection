@@ -147,6 +147,25 @@ After the call of 'NtProtectVirtualMemory'.
 ![image](https://user-images.githubusercontent.com/9944198/128596445-7f90ec1f-0eed-40c3-bd8d-90d74a5ada2d.png)
 
 
+### 05. Process Injection (Low Level Windows API), NtAPIs only (1).
+
+This category demonstrastes a shellcode injection (x86/x64) into a process of ypur choice (default: PowerShell). In this scenario lower level of Windows API has been used. The injection is straight forward using 'PAGE_EXECUTE_READWRITE' only as allocation type. 
+
+Note: During the developing of this category Ι came across to the following resources, which are very helpful!
+
+- NtOpenProcess
+    - https://offensivedefence.co.uk/posts/dinvoke-syscalls/
+    - https://github.com/ChristianWeiler/process_injection/blob/a834ba0035141a760d501338f14ec251b91c48e1/process_injection/shared_memory/shared_memory.cs
+- NtAllocateVirtualMemory
+    - https://www.solomonsklash.io/syscalls-for-shellcode-injection.html
+
+
+#### API Calls
+- NtOpenProcess
+- NtAllocateVirtualMemory
+- NtWriteVirtualMemory
+- NtCreateThreadEx
+
 
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
