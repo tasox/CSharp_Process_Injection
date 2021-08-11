@@ -153,6 +153,9 @@ This category demonstrastes a shellcode injection (x86/x64) into a process of yp
 
 Note: During the developing of this category Ι came across to the following resources, which are very helpful!
 
+![image](https://user-images.githubusercontent.com/9944198/129112045-3f3a8a3a-ce6b-4384-8276-127066045455.png)
+
+
 - NtOpenProcess
     - https://offensivedefence.co.uk/posts/dinvoke-syscalls/
     - https://github.com/ChristianWeiler/process_injection/blob/a834ba0035141a760d501338f14ec251b91c48e1/process_injection/shared_memory/shared_memory.cs
