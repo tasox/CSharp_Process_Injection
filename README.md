@@ -166,6 +166,11 @@ Note: During the developing of this category Ι came across to the following res
 - NtWriteVirtualMemory
 - NtCreateThreadEx
 
+![image](https://user-images.githubusercontent.com/9944198/129110858-bbb06f6e-cd8f-4fa2-b76e-8b46e86a7454.png)
+
+![image](https://user-images.githubusercontent.com/9944198/129111476-c86c2b96-d4ff-44ac-a5fe-646cd78f9a0e.png)
+
+
 
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
