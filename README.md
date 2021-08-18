@@ -68,6 +68,7 @@ To avoid errors during the compilation, you have to check the 'Allow Unsafe Code
 - [02. Process Injection (High Level Windows API)  - Suspends spawned process](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#02-process-injection-high-level-windows-api-suspends-the-spawned-process)
 - [03. Process Injection (Low Level Windows API), Map a view of a section](https://github.com/tasox/CSharp_Process_Injection#03-process-injection-low-level-windows-api-map-a-view-of-a-section)
 - [04. Process Injection (Low Level Windows API), Modify permissions of a section](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#04-process-injection-low-level-windows-api-modify-permissions-of-a-section)
+- [05. Process Injection (Low Level Windows API), NtAPIs only (1)](https://github.com/tasox/CSharp_Process_Injection#05-process-injection-low-level-windows-api-ntapis-only-1)
 
 
 ### 01. Process Injection (High Level Windows API)
