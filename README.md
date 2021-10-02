@@ -69,7 +69,8 @@ To avoid errors during the compilation, you have to check the 'Allow Unsafe Code
 - [03. Process Injection (Low Level Windows API), Map a view of a section](https://github.com/tasox/CSharp_Process_Injection#03-process-injection-low-level-windows-api-map-a-view-of-a-section)
 - [04. Process Injection (Low Level Windows API), Modify permissions of a section](https://github.com/tasox/CSharp_Process_Injection/blob/main/README.md#04-process-injection-low-level-windows-api-modify-permissions-of-a-section)
 - [05. Process Injection (Low Level Windows API), NtAPIs only (1)](https://github.com/tasox/CSharp_Process_Injection#05-process-injection-low-level-windows-api-ntapis-only-1)
-
+- [06. Process Injection (Classic Injection) using Shellcode](https://github.com/tasox/CSharp_Process_Injection#06-process-injection-classic-injection-using-shellcode)
+- [07. Process Injection (Classic DLL Injection)](https://github.com/tasox/CSharp_Process_Injection#07-process-injection-classic-dll-injection)
 
 ### 01. Process Injection (High Level Windows API)
 
@@ -207,7 +208,7 @@ This category demonstrastes a classic DLL injection (x86/x64) into a process of 
 - WriteProcessMemory
 - CreateRemoteThread
 
-![image]()
+![image](![image](https://user-images.githubusercontent.com/9944198/135719195-885d52c4-b290-4dfa-8381-e58cf6763823.png)
 
 
 ## Resources
