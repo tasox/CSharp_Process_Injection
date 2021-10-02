@@ -175,6 +175,40 @@ Note: During the developing of this category Ι came across to the following res
 ![image](https://user-images.githubusercontent.com/9944198/129111476-c86c2b96-d4ff-44ac-a5fe-646cd78f9a0e.png)
 
 
+### 06. Process Injection (Classic Injection) using Shellcode.
+
+This category demonstrastes a shellcode injection (x86/x64) into a process of your choice (default: notepad.exe). This scenario is very similar with the project '01', however additional APIs were invoked. The injection is straight forward using 'PAGE_EXECUTE_READWRITE' only as allocation type. 
+
+
+#### API Calls
+- CreateToolhelp32Snapshot
+- Process32First
+- Process32Next
+- OpenProcess
+- VirtualAllocEx
+- WriteProcessMemory
+- CreateRemoteThread
+- WaitForSingleObject
+
+
+### 07. Process Injection (Classic DLL Injection).
+
+This category demonstrastes a classic DLL injection (x86/x64) into a process of your choice (default: notepad.exe). This scenario is very similar with the project '06', however additional APIs were invoked. The injection is straight forward using 'PAGE_EXECUTE_READWRITE' only as allocation type. 
+
+
+#### API Calls
+- CreateToolhelp32Snapshot
+- Process32First
+- Process32Next
+- OpenProcess
+- GetProcAddress
+- GetModuleHandle
+- VirtualAllocEx
+- WriteProcessMemory
+- CreateRemoteThread
+
+![image]()
+
 
 ## Resources
 - https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
