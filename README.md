@@ -208,7 +208,7 @@ This category demonstrastes a classic DLL injection (x86/x64) into a process of 
 - WriteProcessMemory
 - CreateRemoteThread
 
-![image](![image](https://user-images.githubusercontent.com/9944198/135719195-885d52c4-b290-4dfa-8381-e58cf6763823.png)
+![image](https://user-images.githubusercontent.com/9944198/135719195-885d52c4-b290-4dfa-8381-e58cf6763823.png)
 
 
 ## Resources
