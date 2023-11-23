@@ -215,6 +215,6 @@ This category demonstrastes a classic DLL injection (x86/x64) into a process of 
 
 
 ## Resources
-- https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
+- https://github.com/trustedsec/SysmonCommunityGuide/blob/master/chapters/create-remote-thread.md
 - https://www.ired.team/offensive-security/code-injection-process-injection
 - https://www.forrest-orr.net/blog
